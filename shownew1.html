@@ -1,0 +1,683 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<title>资讯网站</title>
+<meta http-equiv="Content-Type" name="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="css/layout.css" media="screen" />
+<style type="text/css" media="screen">
+@import url("../style/_win.css");
+</style>
+<style  type="text/css">
+#main {
+	background-image:url(img/sea_lion.jpg);
+}
+</style>
+<style type="text/css">
+<!--
+a:link {
+	color: #000;
+	text-decoration:none;
+}
+a:visited {
+	color: #83006f;
+	text-decoration:none;
+}
+a:hover {
+	color: #c00;
+	text-decoration:underline;
+}
+a:active {
+	color: #000;
+}
+.focusPic {
+	margin:0 auto;
+	width:144px;
+	background-color:#FFFFFF;
+}
+.focusPic .pic {
+	margin:0 auto;
+	width:140px;
+	height:180px;
+	padding:2px 0 0;
+}
+.focusPic .adPic {
+	margin:0 auto 5px;
+	width:140px;
+	height:29px;
+	overflow:hidden;
+}
+.focusPic .adPic .text {
+	float:right;
+	padding:9px 4px 0 0;
+	width:140px;
+}
+.focusPic .adPic .text a {
+	color:#1f3a87;
+}
+.focusPic .adPic .text a:hover {
+	color:#bc2931;
+}
+.focusPic h2 {
+	float:left;
+	width:132px;
+	padding:4px 0 3px 12px;
+	font-size:14px;
+	text-align:left;
+}
+.focusPic p {
+	float:left;
+	width:126px;
+	line-height:160%;
+	margin:0;
+	text-align:left;
+	padding:0 0 10px 12px;
+}
+.focusPic p img {
+	margin:0px 0 2px;
+}
+.focusPic .more {
+	margin:0 auto;
+	width:120px;
+}
+.focusPic .more .textNum {
+	float:right;
+}
+.focusPic .more .textNum .text {
+	float:left;
+	font-weight:bold;
+	padding:7px 6px 0 0;
+	color:#666;
+}
+.focusPic .more .textNum .num {
+	float:left;
+	width:113px;
+	height:19px;
+}
+.focusPic .more .textNum .bg1 {
+	background:#FF0000;
+}
+.focusPic .more .textNum .bg2 {
+	background:#FF0000;
+}
+.focusPic .more .textNum .bg3 {
+	background:#FF0000;
+}
+.focusPic .more .textNum .bg4 {
+	background:#FF0000;
+}
+.focusPic .more .textNum .num ul {
+	float:left;
+	width:83px;
+}
+.focusPic .more .textNum .num li {
+	float:left;
+	width:20px;
+	font-weight:bold;
+	display:block;
+	color:#000;
+	list-style-type:none;
+	padding:6px 0 0;
+}
+.focusPic .more .textNum .num li a {
+	color:#fff;
+	padding:0 5px;
+}
+.focusPic .more .textNum .num li a:visited {
+	color:#fff;
+}
+.focusPic .more .textNum .num li a:hover {
+	color:#ff0;
+}
+-->
+</style>
+<script type="text/javascript" src="js/mootools.js"></script>
+<script type="text/javascript" src="js/general.js"></script>
+<script type="text/javascript" src="js/func.js"></script>
+<script type="text/javascript" src="js/cuchiz.js"></script>
+<!-- script type="text/javascript" src="/js/calendar.js"></script -->
+<link rel="stylesheet" type="text/css" href="" />
+<script type="text/javascript" src=""></script>
+</head>
+<body>
+<div class="layout">
+  <div id="left" class="cms"> <a href="#"><img src="img/centralpark.gif" width="251" height="78"  /></a> </div>
+  <div id="right">
+    <div class="top">
+      <ul class="links">
+        <li class="signup"><a href="#" title="免费注册">注册</a></li>
+        <li class="login panelButton"><a href="#" title="如果是会员请登录">登录</a></li>
+        <li class="cart"><a href="#">我的空间</a></li>
+      </ul>
+      <form name="formSearch" method="get" action="/search">
+        <input name="q" type="text" id="headerSearch" value="请输入" />
+        <input type="submit" class="search-button" value=" " />
+      </form>
+      <div class="clearer"></div>
+    </div>
+    <ul class="subnav">
+      <li><a href="#">近期热门</a></li>
+      <li><a href="#">娱乐资讯</a></li>
+      <li><a href="#">业界动态</a></li>
+      <li><a href="#">业界新闻</a></li>
+      <li class="last"><a href="#">小道消息</a></li>
+      <li class="rss"><a href="#">免费订阅</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="menu">
+  <ul>
+  <li class="home"><a href="index.html">首页</a></li>
+    <li class="info"><a href="photos.html">娱乐新闻</a></li>
+    <li class="zoo"><a href="shownew1.html">资讯</a></li>
+    <li class="photos"><a href="index.html">明星图片</a></li>
+    <li class="events"><a href="shownew1.html">业界动态</a></li>
+    <li class="attractions"><a href="photos.html">小道八卦</a></li>
+    <li class="sports"><a href="shownew1.html">博客</a></li>
+    <li class="activities"><a href="#">嘉宾聊天</a></li>
+    <li class="maps"><a href="#">大片</a></li>
+    <li class="history"><a href="#">乐库</a></li>
+    <li class="store"><a href="#">#</a></li>
+  </ul>
+</div>
+<div id="main">
+
+  <div id="main_center">
+  
+    <div id="container_left">
+      <div class="div_empty" style="height: 6px;"><img src="img/spacer.gif" width="1" height="1" /></div>
+      <div>
+        <div><img src="img/calendar_corner_lt.gif" width="151" height="5"  /></div>
+        <div id="colt_mijloc_left1_2"> <img src="img/icons/btn_minus.gif" align="middle" id="img2"  style="cursor: pointer; padding: 0 5px;" /> <a href="#">热点事件</a> </div>
+        <div id="sub2" style="display:block">
+          <div class="content">
+            <div class="nav"> <a rel="nofollow" id="calPrevMonth"  class="arrow" >&laquo;</a> <a rel=nofollow" id="calCurrentMonth" href="#">2010 四月</a> <a rel=nofollow" id="calNextMonth" href="#" class="arrow">&raquo;</a> </div>
+            <div class="calendar">
+              <div id="calWrapper" style="left: 0;">
+                <div id="calMonth">
+                   <ul>
+                    <li><a rel="nofollow" href="#" class="blurred" >28</a></li>
+                    <li><a rel="nofollow" href="#" class="blurred" >29</a></li>
+                    <li><a rel="nofollow" href="#" class="blurred" >30</a></li>
+                    <li><a rel="nofollow" href="#" class="blurred" >31</a></li>
+                    <li><a rel="nofollow" href="#" >1</a></li>
+                    <li><a rel="nofollow" href="#">2</a></li>
+                    <li><a rel="nofollow" href="#">3</a></li>
+                  </ul>
+                  <ul>
+                    <li><a rel="nofollow" href="#">4</a></li>
+                    <li><a rel="nofollow" href="#">5</a></li>
+                    <li><a rel="nofollow" href="#">6</a></li>
+                    <li><a rel="nofollow" href="#">7</a></li>
+                    <li><a rel="nofollow" href="#">8</a></li>
+                    <li><a rel="nofollow" href="#">9</a></li>
+                    <li><a rel="nofollow" href="#">10</a></li>
+                  </ul>
+                  <ul>
+                    <li><a rel="nofollow" href="#">11</a></li>
+                    <li><a rel="nofollow" href="#">12</a></li>
+                    <li><a rel="nofollow" href="#">13</a></li>
+                    <li><a rel="nofollow" href="#">14</a></li>
+                    <li><a rel="nofollow" href="#">15</a></li>
+                    <li><a rel="nofollow" href="#">16</a></li>
+                    <li><a rel="nofollow" href="#">17</a></li>
+                  </ul>
+                  <ul>
+                    <li><a rel="nofollow" href="#">18</a></li>
+                    <li><a rel="nofollow" href="#">19</a></li>
+                    <li><a rel="nofollow" href="#">20</a></li>
+                    <li><a rel="nofollow" href="#">21</a></li>
+                    <li><a rel="nofollow" href="#">22</a></li>
+                    <li><a rel="nofollow" href="#">23</a></li>
+                    <li><a rel="nofollow" href="#">24</a></li>
+                  </ul>
+                  <ul>
+                    <li><a rel="nofollow" href="#">25</a></li>
+                    <li><a rel="nofollow" href="#">26</a></li>
+                    <li><a rel="nofollow" href="#">27</a></li>
+                    <li><a rel="nofollow" href="#">28</a></li>
+                    <li><a rel="nofollow" href="#" class="today" >29</a></li>
+                    <li><a rel="nofollow" href="#">30</a></li>
+                    <li><a rel="nofollow" href="#" class="blurred">1</a></li>
+                  </ul>
+                  <ul>
+                    <li><a rel="nofollow" href="#" class="blurred" >2</a></li>
+                    <li><a rel="nofollow" href="#" class="blurred" >3</a></li>
+                    <li><a rel="nofollow" href="#" class="blurred" >4</a></li>
+                    <li><a rel="nofollow" href="#" class="blurred" >5</a></li>
+                    <li><a rel="nofollow" href="#" class="blurred" >6</a></li>
+                    <li><a rel="nofollow" href="#" class="blurred">7</a></li>
+                    <li><a rel="nofollow" href="#" class="blurred">8</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="clearer"></div>
+            <div class="search"> <a href="#">最新资讯</a> </div>
+          </div>
+          <div id="colt_jos_left_2"><img src="img/calendar_corner_lb.gif" width="151" height="5" /></div>
+        </div>
+        <div id="foot2" style="background-color:#88975D; border-right:5px solid #5F6941; display:none; width:146px"><img src="img/icalendar_corner_lb1.gif" width="5" height="5"  /></div>
+      </div>
+      <div class="panel beige-left">
+        <div class="top">
+          <div class="left"></div>
+          <div class="middle"></div>
+          <div class="right"></div>
+        </div>
+        <h3 class="title"> <img src="img/icons/btn_minus.gif" id="img5" style="cursor: pointer;" /> <a href="shownew1.html" >咨询介绍</a> </h3>
+        <div id="sub5" style="display: block">
+          <div class="content">
+            <ul>
+              <li><a href="#" title="">服饰</a></li>
+              <li><a href="#" title="">美容</a></li>
+              <li><a href="#" title="Birds">减肥</a></li>
+              <li><a href="#" title="">奢侈品</a></li>
+              <li><a href="#" title="">旅游</a></li>
+              <li><a href="#" title="">数码</a></li>
+              <li><a href="#" title="">艺术</a></li>
+              <li><a href="#" title="">情感</a></li>
+              <li><a href="#" title="">新娘</a></li>
+              <li><a href="#" title="">图片</a></li>
+              <li><a href="#" title="">视频</a></li>
+              <li><a href="#" title="">活动</a></li>
+              <li><a href="#" title="">时尚生活</a></li>
+              <li><a href="#" title="">专题</a></li>
+              <li><a href="#" title="">化妆品</a></li>
+              <li><a href="#" title="">游戏</a></li>
+			  <li><a href="#" title="">教育</a></li>
+			  <li><a href="#" title="">城市</a></li>
+			  <li><a href="#" title="">旅游</a></li>
+			  <li><a href="#" title="">博文</a></li>
+			  <li><a href="#" title="">论坛</a></li>
+            </ul>
+          </div>
+          <div class="bottom"></div>
+        </div>
+        <div id="foot5" class="bottom bottom-closed" style="display: none;"></div>
+      </div>
+      <div class="div_empty"><img src="img/spacer.gif" width="1" height="1" /></div>
+      <div class="div_empty"><img src="img/spacer.gif" width="1" height="1" /></div>
+      <div>
+        <div><img src="img/newsletter_corner_lt.gif" width="151" height="5"  /></div>
+        <div id="colt_mijloc_left1_3"> <img src="img/icons/btn_minus.gif" width="7" height="7" hspace="5" border="0" align="middle" id="img3"  style="cursor: pointer;" /> <a href="#">广告位置</a> </div>
+        <div id="sub3" style="display:block">
+          <div id="colt_mijloc_left2_3">
+            <div align="center"><a href="#" target="_blank"><img src="img/adobe-award.gif" border="0" /></a></div>
+            <br />
+            <div style="margin: 0"> <a href="#"><img src="img/buttons/learn_more.gif" border="0" align="right" /></a> </div>
+          </div>
+          <div><img src="img/newsletter_corner_lb.gif" /></div>
+        </div>
+        <div id="foot3" style="background-color:#264218; border-right:5px solid #203814; display:none; width:146px"><img src="img/inewsletter_corner_lb.gif" width="5" height="5" /></div>
+      </div>
+    </div>
+    <div id="container_middle">
+      <div><img src="img/icontent_corner_lt1.gif" width="438" height="5" alt="_" /></div>
+      <div id="alt_middle_2"> <a href="#">首页</a> 
+        <form name="frmQuickJump" method="get" action="/" style="display: inline;">
+        </form>
+      </div>
+      <!-- start alt_middle_3 -->
+      <div id="alt_middle_3">
+        <div class="topContainer">
+          <h1>搜索<span style="display: inline;">
+            <select name="quickJump" id="quickjump">
+              <option value=""selected>房产服务</option>
+              <option value="">车辆服务</option>
+              <option value="">票务/优惠券</option>
+              <option value="">招聘</option>
+              <option value="">教育培训</option>
+              <option value="">跳蚤市场</option>
+            </select>
+          </span></h1>
+          <ul class="toolbar"style="width: 127px;" >
+            <li class="map"><a href="#" class="toolsBg" title="地图"></a></li>
+            <li class="comment"><a href="#">添加评论</a></li>
+            <li class="print"><a href="#" title="" ></a></li>
+            <li class="email last"><a href="#">邮件</a></li>
+          </ul>
+        </div>
+        
+           <p><strong>*</strong> 发表于: <strong>2010年04月30日 09:57汽车之家<br />
+          <span style="text-decoration: underline;"><br />时髦男装 春季经典回潮 </span></strong><br />
+          黑色、白色、烟灰色、石青色…… 这些经典的男装色彩，本季在设计师的捕捉下呈现全新的时髦感；同时，休闲装或正装在早春系列中各有不俗表现，豹纹、鳄鱼纹轧花等时尚纹路和图案，也在成熟的造型中成为时尚的点睛之笔。这里为你演绎2010早春的潮流法则，为你的个性装扮提供完美建议
+		  <a href="#">[查看原文]</a></p> 
+        <p><strong>大牌男人装 街头运动风范</strong><br />
+		
+说到品牌，每个品牌都有自己的特定的风格。比如，你穿Hugo Boss,你就一定不会想要穿出街头范儿；比如你穿LV,你肯定不是在追求韩版小男孩的气质。再比如说你穿Gucci，你相信Gucci也能穿出运动的风格么？
+
+本季大玩Gucci的奢华本质，造型师Enrico Maris Volonte 在Gucci的2010春夏系列中挑选出其中意的款式，竟然打造出了一系列的休闲运动风格。由男模Arthur Daniyarov, Bruce Machando, Johannes Niermann, Luiz Afonso Schwab, Malte Paulsen 和 Theo Hall 联袂出演。<a href="#">[查看原文]</a></p>
+        <p>&nbsp;</p>
+        <p>
+        <div id="page_navigation">查询结果【共2页】 <b>1</b><a href="#" >2</a></div>
+        <div class="noprint" style="text-align: right; margin-top: 10px; font-weight: bold; font-size: 10px;"> <a style="background: none; color: #6C9836;" href="#">我要评论？</a> </div>
+        
+        <!-- start links -->
+        <div id="alt_middle_7">
+          <h3>相关文章</h3>
+          <ul>
+            <li><a href="#" title="" target="_blank">五一出游攻略</a> - 世博会三日游，给大家带来不一样的体验。</li>
+            <li><a href="#" title="" target="_blank">米兰夏季时装发布会</a> - 01年夏季发布会，众多时尚名媛系数参加，豪华场面不容错过。</li>
+          </ul>
+        </div>
+        <!-- end links -->
+      </div>
+      <!-- end alt_middle_3 -->
+      <!-- newsletter -->
+      <div id="middle_newsletter">
+        <table cellpadding="0" cellspacing="0" align="center" id="mid_nltr_container">
+          <tr>
+            <td colspan="2"><img src="img/mid_nltr_top.gif" /></td>
+          </tr>
+          <tr>
+            <td id="mid_nltr_left"><h1>旅游调查</h1>
+             国内哪些旅游城市最受欢迎？ </td>
+            <td id="mid_nltr_right">
+			
+                <label>
+                <input name="lists[]" type="checkbox" value="weekly" style="vertical-align: -2px;" />
+                <strong>青岛</strong></label>
+                <br />
+                <label>
+                <input name="lists[]" type="checkbox" value="monthly" style="vertical-align: -2px;" />
+                <strong>大连</strong></label>
+                <br />
+                <label>
+                <input name="lists[]" type="checkbox" value="special" style="vertical-align: -2px;" />
+                <strong>桂林</strong></label>
+                <br />
+                <br />
+                &nbsp;
+                <input type="text" name="email" value="输入你的用户名" 
+				class="email" onFocus="if(this.value == '输入你的用户名') this.value='';" />
+                <input type="hidden" name="nlSubscribe" />
+                <input type="image" src="img/dkgreen.signup.gif" style="vertical-align: -5px" border="0" />
+              </td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="img/mid_nltr_bottom.gif" /></td>
+          </tr>
+        </table>
+      </div>
+      <!-- newsletter -->
+      <div><img src="img/icontent_corner_lb1.gif"></div>
+    </div>
+    <div id="container_right">
+    <script language="JavaScript" type="text/javascript"> 
+var nn; 
+nn=1; 
+setTimeout('change_img()',6000); 
+function change_img() 
+{ 
+ if(nn>4) nn=1 
+ setTimeout('setFocus1('+nn+')',6000); 
+ nn++; 
+ tt=setTimeout('change_img()',6000); 
+} 
+function setFocus1(i) 
+{ 
+ selectLayer1(i); 
+} 
+function selectLayer1(i) 
+{ 
+ switch(i) 
+ { 
+ case 1: 
+ document.getElementById("focusPic1").style.display="block"; 
+ document.getElementById("focusPic2").style.display="none"; 
+ document.getElementById("focusPic3").style.display="none"; 
+ document.getElementById("focusPic4").style.display="none"; 
+ document.getElementById("focusPic1nav").style.display="block"; 
+ document.getElementById("focusPic2nav").style.display="none"; 
+ document.getElementById("focusPic3nav").style.display="none"; 
+ document.getElementById("focusPic4nav").style.display="none"; 
+ break; 
+ case 2: 
+ document.getElementById("focusPic1").style.display="none"; 
+ document.getElementById("focusPic2").style.display="block"; 
+ document.getElementById("focusPic3").style.display="none"; 
+ document.getElementById("focusPic4").style.display="none"; 
+ document.getElementById("focusPic1nav").style.display="none"; 
+ document.getElementById("focusPic2nav").style.display="block"; 
+ document.getElementById("focusPic3nav").style.display="none"; 
+ document.getElementById("focusPic4nav").style.display="none"; 
+ break; 
+ case 3: 
+ document.getElementById("focusPic1").style.display="none"; 
+ document.getElementById("focusPic2").style.display="none"; 
+ document.getElementById("focusPic3").style.display="block"; 
+ document.getElementById("focusPic4").style.display="none"; 
+ document.getElementById("focusPic1nav").style.display="none"; 
+ document.getElementById("focusPic2nav").style.display="none"; 
+ document.getElementById("focusPic3nav").style.display="block"; 
+ document.getElementById("focusPic4nav").style.display="none"; 
+ break; 
+ case 4: 
+ document.getElementById("focusPic1").style.display="none"; 
+ document.getElementById("focusPic2").style.display="none"; 
+ document.getElementById("focusPic3").style.display="none"; 
+ document.getElementById("focusPic4").style.display="block"; 
+ document.getElementById("focusPic1nav").style.display="none"; 
+ document.getElementById("focusPic2nav").style.display="none"; 
+ document.getElementById("focusPic3nav").style.display="none"; 
+ document.getElementById("focusPic4nav").style.display="block"; 
+ break; 
+ } 
+} 
+</script>
+     <div class="focusPic">
+  <div id="focusPic1" style="display:block ;">
+    <div class="pic"> <a href="#"><img src="img/autumn-in-ny.jpg" width="140" height="180" border="0" / onclick="javascript:window.open(this.src);" style="CURSOR: pointer" onload="return imgzoom(this,550)"></a> </div>
+    <h2><a href="#">街头运动风范</a></h2>
+    休闲装或正装在早春系列中各有不俗表现，豹纹、鳄鱼纹轧花等时尚纹路和图案……<img src="/newimg/i2.gif" width="3" height="5" / onclick="javascript:window.open(this.src);" style="CURSOR: pointer" onload="return imgzoom(this,550)"> <a href="#" class="cDRed">详细</a>
+    </p>
+  </div>
+  <div id="focusPic2" style="display: none ;">
+    <div class="pic"> <a href="#"><img src="img/GusSnow.jpg" width="140" height="180" border="0" / onclick="javascript:window.open(this.src);" style="CURSOR: pointer" onload="return imgzoom(this,550)"></a> </div>
+    <h2><a href="#">朝鲜版《红楼梦》</a></h2>
+    <p>朝鲜版《红楼梦》来华演出 举国海选12钗 <img src="/newimg/i2.gif"  width="3" height="5" / onclick="javascript:window.open(this.src);" style="CURSOR: pointer" onload="return imgzoom(this,550)"> <a href="http://tech.163.com/discover/" class="cDRed">详细</a></p>
+  </div>
+  <div id="focusPic3" style="display: none ;">
+    <div class="pic"> <a href="#"><img src="img/sepia-landscape.jpg"  width="140" height="180" border="0" / onclick="javascript:window.open(this.src);" style="CURSOR: pointer" onload="return imgzoom(this,550)"></a> </div>
+    <h2><a href="#">《杜拉拉》王珞丹引职场热潮 </a></h2>
+    <p>《杜拉拉》王珞丹引职场热潮 <img src="/newimg/i2.gif"  width="3" height="5" / onclick="javascript:window.open(this.src);" style="CURSOR: pointer" onload="return imgzoom(this,550)"> <a href="#" class="cDRed">详细</a></p>
+  </div>
+  <div id="focusPic4" style="display: none ;">
+    <div class="pic"> <a href="#"><img src="img/200601171002503f251.jpg" width="140" height="180" border="0" / onclick="javascript:window.open(this.src);" style="CURSOR: pointer" onload="return imgzoom(this,550)"></a> </div>
+    <h2><a href="#">杰克逊《战栗》当选最具影响力MV</a></h2>
+    <p>黑眼豆豆再破纪录<img src="/newimg/i2.gif" width="3" height="5" / onclick="javascript:window.open(this.src);" style="CURSOR: pointer" onload="return imgzoom(this,550)"> <a href="#" class="cDRed">详细</a></p>
+  </div>
+  <div class="more">
+    <div class="textNum">
+      <div class="text">> 更多头图新闻</div>
+      <div class="num bg1" id="focusPic1nav" style="display: block;">
+        <ul>
+          <li>1</li>
+          <li><a href="javascript:setFocus1(2);" target="_self">2</a></li>
+          <li><a href="javascript:setFocus1(3);" target="_self">3</a></li>
+          <li><a href="javascript:setFocus1(4);" target="_self">4</a></li>
+        </ul>
+      </div>
+      <div class="num bg2" id="focusPic2nav" style="display: none;">
+        <ul>
+          <li><a href="javascript:setFocus1(1);" target="_self">1</a></li>
+          <li>2</li>
+          <li><a href="javascript:setFocus1(3);" target="_self">3</a></li>
+          <li><a href="javascript:setFocus1(4);" target="_self">4</a></li>
+        </ul>
+      </div>
+      <div class="num bg3" id="focusPic3nav" style="display: none;">
+        <ul>
+          <li><a href="javascript:setFocus1(1);" target="_self">1</a></li>
+          <li><a href="javascript:setFocus1(2);" target="_self">2</a></li>
+          <li>3</li>
+          <li><a href="javascript:setFocus1(4);" target="_self">4</a></li>
+        </ul>
+      </div>
+      <div class="num bg4" id="focusPic4nav" style="display: none;">
+        <ul>
+          <li><a href="javascript:setFocus1(1);" target="_self">1</a></li>
+          <li><a href="javascript:setFocus1(2);" target="_self">2</a></li>
+          <li><a href="javascript:setFocus1(3);" target="_self">3</a></li>
+          <li>4</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- poll trivia -->
+      <div id="div_empty"><img src="img/spacer.gif" width="1" height="1"></div>
+      <div id="pollBox">
+        <div><img src="img/poll-up.gif" /></div>
+        <div id="pollTitle"> <img src="img/icons/btn_minus.gif" hspace="5" border="0" align="middle" id="img11" alt="" onClick="showHide(11);" style="cursor: pointer" />今日要闻</div>
+        <div id="sub11" style="display:block">
+          <div id="pollContent">
+            <div id="pollCastVote">
+              <form name="formPoll">
+                <input type="hidden" id="choiceSelected" name="choiceSelected" value="" />
+                <b>热门文章排行</b>
+                <ul>
+                  <li>
+                    <a href="#">比亚迪F6最高优惠2.7万 部分车型有现车</a>
+                  </li>
+                  <li>
+                    <a href="#">别克凯越全系优惠1.21万 最低售价9.58 …</a>
+                  </li>
+                  <li>
+                    <a href="#">北京车展自主品牌阵容强大 昭示中国军团崛起</a>
+                  </li>
+                  <li>
+                    <a href="#">天价布嘉迪车展售出 中国买家创全球年龄最低纪…</a>
+                  </li>
+                  <li>
+                    <a href="#">李书福：沃尔沃需等盈利后才建国产基地</a>
+                  </li>
+                  <li>
+                    <a href="#">东风本田思铂睿现车齐全 全系优惠1.6万元 </a>
+                  </li>
+                  <li>
+                    <a href="#">背离环保沉迷盈利 英菲尼迪QX56遭遇炮轰</a>
+                  </li>
+                  <li>
+                    <a href="#">全新伊兰特悦动全球首发 外观采用新索纳塔设计</a>
+                  </li>
+                </ul>
+              </form>
+              <div align="right" style="padding-right: 10px;"> <br />
+                <a href="#"></a>
+              </div>
+            </div>
+            <div id="pollResults"></div>
+          </div>
+          <div><img src="img/poll-down.gif" /></div>
+        </div>
+        <div id="foot11" style="display:none;" align="right"><img src="img/poll-down2.gif" alt="" /></div>
+      </div>
+      <!-- poll box -->
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="credits"> <a href="#" title="Top of page" style="float: right;">返回顶部</a> </div>
+  <div class="line-two">
+    <div class="col">
+      <h3>关于我们</h3>
+      <ul>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">关于网站</a></li>
+        <li><a href="#">关于公司</a></li>
+        <li><a href="#">网站地图</a></li>
+        <li><a href="#">网站帮助</a></li>
+        <li><a href="#">联系我们</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h3>快速导航</h3>
+      <ul>
+        <li><a href="#">娱乐新闻</a></li>
+        <li><a href="#">业内新闻</a></li>
+        <li><a href="#">业界动态</a></li>
+        <li><a href="#">八卦新闻</a></li>
+        <li><a href="#">小道消息</a></li>
+        <li><a href="#">粉丝地盘</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul class="notitle">
+        <li><a href="#">视频新闻</a></li>
+        <li><a href="#">图片新闻</a></li>
+        <li><a href="#">原创节目</a></li>
+        <li><a href="#">明星博客</a></li>
+        <li><a href="#">博客秀场</a></li>
+        <li><a href="#">明星日志</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h3>合作方式</h3>
+      <ul>
+        <li><a href="#">媒体合作</a></li>
+        <li><a href="#">平面合作</a></li>
+        <li><a href="#">网络合作</a></li>
+        <li><a href="#">友情链接</a></li>
+        <li><a href="#">广告合作</a></li>
+        <li><a href="#">电台合作</a></li>
+      </ul>
+    </div>
+    <div class="col lastcol">
+      <h3>相关条文</h3>
+      <ul>
+        <li><a href="#">法律条文</a></li>
+        <li><a href="#">权利和义务</a></li>
+        <li><a href="#">隐私权保护</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="line-three"> 娱乐资讯网 &copy; 2009 - 2010 保留一切权利 </div>
+</div>
+<script type="text/javascript" src="js/wz_tooltip.js"></script>
+<div id="mDropdownPanel">
+  <div class="pane">
+    <form method="post">
+      <label for="musername">账号或邮箱</label>
+      <input type="text" name="username" id="musername" class="input" />
+      <label for="mpassword">登录密码 </label>
+      <input type="password" name="password" id="mpassword" class="input" />
+      <div class="l">
+        <input type="checkbox" name="remember" id="mremember" class="checkbox" value="1" />
+        <label for="mremember" class="r">记住我</label>
+        <input type="submit" value=" " class="submit" />
+      </div>
+      <div class="clearer"></div>
+      <div class="alignC"><a href="#" >忘记密码?</a></div>
+    </form>
+  </div>
+</div>
+<!-- Google Analytics -->
+<script type="text/javascript"><!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--></script>
+<script type="text/javascript"><!--
+try {
+var pageTracker = _gat._getTracker("UA-102264-1");
+pageTracker._trackPageview();
+} catch(err) {}
+//--></script>
+<script type="text/javascript" src="js/gaAddons.js"></script>
+<!-- Google Analytics -->
+<!-- Start Quantcast tag -->
+<script type="text/javascript"><!--
+_qoptions={qacct:"p-23tmCi7YtOGgE"};
+//--></script>
+<script type="text/javascript" src="js/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-23tmCi7YtOGgE.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast" />
+</noscript>
+<!-- End Quantcast tag -->
+<!-- Woopra Code Start -->
+<script type="text/javascript" src="js/woopra.js"></script>
+<!-- Woopra Code End -->
+</body>
+</html>

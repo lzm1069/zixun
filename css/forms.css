@@ -1,0 +1,42 @@
+form {
+	margin:0;
+	padding: 0;
+}
+.eventsbox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #3C5F29;
+	border: 1px solid #3C5F29;
+}
+.loginbox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #295269;
+	background-color: #E0ECF3;
+	border: 1px solid #526475;
+}
+.newsletterbox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #203814;
+	background-color: #EBF6CC;
+	border: 1px solid #214402;
+}
+.searchbox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #666666;
+	border: 1px solid #999999;
+}
+
+
+table.formgrid {margin: 0 auto; border: 0; empty-cells: show;}
+table.formgrid td {padding: 2px 4px; vertical-align: top;}
+table.formgrid .right {text-align: right; padding-right: 4px;}
+table.formgrid .caption {font-weight: bold; padding-top: 20px;}
+
+.formgrid .input { font-size: 10px; color: #203814; background-color: #EBF6CC; }
+.formgrid .check { vertical-align: -4px; }
+.formgrid .radio { vertical-align: -2px; }
+.formgrid label {margin-right: 10px;}
+

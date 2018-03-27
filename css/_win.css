@@ -1,0 +1,29 @@
+.menu {
+	width: 800px;
+	height: 32px;
+	overflow: hidden;
+	font: 11px/15px Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	background: #fff url(../img/menu_bg.gif) repeat-x;
+}
+.menu #cpstore {
+	background: url(../img/shopping_bag.gif) no-repeat 10px 8px;
+	padding-left: 29px;
+}
+.menu #cpstore:hover {
+	background-color: #1A4820;
+}
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 8px 7px 9px;
+	line-height: 16px;
+}
+.menu a:hover {
+	text-decoration: underline;
+	background-color: #1A4820;
+}
+.menu img {
+	vertical-align: middle;
+}
